@@ -1,0 +1,17 @@
+{
+    "projectName": "TxGram",
+    "languages": [
+        {
+            "id": "txgram",
+            "grammar": "src/language/tx-gram.langium",
+            "fileExtensions": [".txg"],
+            "textMate": {
+                "out": "syntaxes/tx-gram.tmLanguage.json"
+            },
+            "monarch": {
+                "out": "src/syntaxes/tx-gram.monarch.ts"
+            }
+        }
+    ],
+    "out": "src/language/generated"
+}
